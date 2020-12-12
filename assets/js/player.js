@@ -381,7 +381,7 @@ window.addEventListener("message", function (e) {
 			jwplayer().on('error', function (e) {
 				if (e.code == 232011) {
 					jwplayer().load({
-						file: "https://i.imgur.com/gC9t74z.png"
+						file: "https://i.imgur.com/5GEkUDs.mp4"
 					});
 					jwplayer().setControls(false);
 					jwplayer().setConfig({
